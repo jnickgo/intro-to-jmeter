@@ -1,0 +1,2 @@
+basic: jmeter -n –t first_test_solution.jmx -l testresults.jtl -e -o results
+property override: jmeter -JUsers=5 -JRamp_Up=10 -JIterations=20 -n -t first_test_variables_solution.jmx -l testresults.jtl -e -o results
